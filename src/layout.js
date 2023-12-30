@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'react-bootstrap-v5';
+import { Container } from 'react-bootstrap';
 import Header from './header';
 import HeroSection from './hsection';
 import AboutUs from './about';
@@ -7,12 +7,11 @@ import Menu from './menu';
 import Contact from './contact';
 import Footer from './footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import './layout.scss';
 
-//Defining the layout for the website
 function Layout() {
   return (
-    <div className="App">
+    <div className="Layout">
       <Header />
       <Container>
         <HeroSection />
