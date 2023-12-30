@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(#999999 80%, gray);
+    
 }
 
 header {
@@ -32,10 +33,11 @@ nav a {
 .hero {
     text-align: center;
     padding: 100px 20px;
-    background-image: url('pizzabg.png'); /* Replace with your image */
+    // background-image: url('pizzabg.png'); /* Replace with your image */
     background-size: cover;
     background-position: center;
     color: #fff;
+    
 }
 
 .cta-btn {
@@ -76,7 +78,11 @@ footer {
     animation: tiltAnimation 0.5s infinite;
     width: 10rem;
     height: 10rem;
+    
   }
-  
+
+  .card{
+    background-color: #666;
+  }
 
 /* Add more styles for menu, contact form, etc. */

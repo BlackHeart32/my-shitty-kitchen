@@ -3,6 +3,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap-v5';
 
 function HeroSection() {
   return (
+    <div className='hero'>
     <Container className="py-5">
       <Row>
         <Col>
@@ -11,6 +12,7 @@ function HeroSection() {
         </Col>
       </Row>
     </Container>
+    </div>
   );
 }
 
