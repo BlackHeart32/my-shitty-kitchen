@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer>
       <Container>
-        <p>&copy; 2023 Your Pizza Place. All rights reserved.</p>
+        <p>&copy; 2023 My Shitty Kitchen. All shits reserved.</p>
       </Container>
     </footer>
   );

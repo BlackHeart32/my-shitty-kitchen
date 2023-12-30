@@ -5,7 +5,7 @@ function AboutUs() {
     <section id="about">
       <div className="about-content">
         <h2>About Us</h2>
-        <p>Our pizzas are shittier than Emmanuel lol...</p>
+        <p>Our pizzas are shittier than our employees lol...</p>
       </div>
     </section>
   );
