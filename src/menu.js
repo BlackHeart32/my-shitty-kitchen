@@ -14,7 +14,7 @@ function Menu() {
         <Card.Text>
           Cat pizza.
         </Card.Text>
-        <Button variant="danger">Go somewhere</Button>
+        <Button variant="danger">Go somewhere else</Button>
       </Card.Body>
       </Card>
 
@@ -25,7 +25,7 @@ function Menu() {
         <Card.Text>
         More cat pizza.
         </Card.Text>
-        <Button variant="danger">Go somewhere</Button>
+        <Button variant="danger">Go somewhere else</Button>
       </Card.Body>
       </Card>
 
@@ -36,7 +36,7 @@ function Menu() {
         <Card.Text>
           Even More cat pizza.
         </Card.Text>
-        <Button variant="danger">Go somewhere</Button>
+        <Button variant="danger">Go somewhere else</Button>
       </Card.Body>
       </Card>
       </CardGroup>
