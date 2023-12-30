@@ -60,4 +60,23 @@ footer {
     text-align: center;
 }
 
+@keyframes tiltAnimation {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  .navbar-brand img {
+    animation: tiltAnimation 0.5s infinite;
+    width: 10rem;
+    height: 10rem;
+  }
+  
+
 /* Add more styles for menu, contact form, etc. */
