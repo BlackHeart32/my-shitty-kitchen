@@ -7,7 +7,7 @@ function HeroSection() {
     <Container className="py-5">
       <Row>
         <Col>
-          <h1 className="display-4">Feel the Pain: Shittiest Pizzas in Town</h1>
+          <h1 className="display-4">My Shitty Kitchen: Shittiest Food in Town</h1>
           <Button variant="danger">Order Now</Button>
         </Col>
       </Row>

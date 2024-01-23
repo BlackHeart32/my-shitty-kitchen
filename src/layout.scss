@@ -1,9 +1,12 @@
+$secondary: #333;
+$background: #666;
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background: linear-gradient(#999999 80%, gray);
-    
+    color: #fff;
 }
 
 header {
@@ -75,13 +78,14 @@ footer {
   
   .navbar-brand img {
     animation: tiltAnimation 0.5s infinite;
-    width: 10rem;
-    height: 10rem;
+    width: 8rem;
+    height: 8rem;
     
   }
 
   .card{
-    background-color: #666;
+    background-color: #333;   
+    color: #fff; 
   }
 
 /* Add more styles for menu, contact form, etc. */
